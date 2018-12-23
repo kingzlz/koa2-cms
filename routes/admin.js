@@ -14,13 +14,13 @@ router.use(async (ctx, next) => {
 
   //模板引擎配置全局的变量
   ctx.state.__HOST__ = 'http://' + ctx.request.header.host;
-
+  ctx.state.__ROOT__='http://'+ctx.header.host;
   await  next();
 
 });
 
 router.get('/', async (ctx, next) => {
-  await ctx.render('index', {
+  await ctx.render('admin/index', {
     title: 'Hello Koa 2!'
   })
 });

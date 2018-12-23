@@ -36,7 +36,7 @@ router.post('/doLogin', async (ctx) => {
 
   //3、成功以后把用户信息写入sessoin
 
-  if (code.toLocaleLowerCase() == ctx.session.code.toLocaleLowerCase()) {
+  if (code.toLocaleLowerCase() === ctx.session.code.toLocaleLowerCase()) {
 
     //后台也要验证码用户名密码是否合法
 

@@ -3,6 +3,10 @@ const router = require('koa-router')();
 //验证码模块
 const svgCaptcha = require('svg-captcha');
 
+const tools = require('../../model/tools.js');
+
+const DB = require('../../model/db.js');
+
 
 router.prefix('/login');
 router.get('/', async (ctx, next) => {

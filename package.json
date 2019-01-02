@@ -1,6 +1,6 @@
 {
   "name": "koa2-cms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "koa2的一个cms内容管理系统",
   "main": "index.js",
   "scripts": {

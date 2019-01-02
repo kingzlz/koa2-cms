@@ -23,6 +23,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kingzlz/koa2-cms.git"
-  }
+    "url": "git+https://github.com/kingzlz/koa2-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kingzlz/koa2-cms/issues"
+  },
+  "homepage": "https://github.com/kingzlz/koa2-cms#readme",
+  "devDependencies": {}
 }
